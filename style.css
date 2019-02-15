@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+* {
+	height: 0
+}
+.container {
+	width: 1283px;
+	height: 2003px;
+	background-color: #ffffff;
+}
+.menu {
+	margin: -10px 285px;
+    float: left;
+}
+.menu li a {
+	width: 64px;
+	height: 14px;
+	color: #0d3e6e;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 34px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	border-bottom: 2px solid #68cdff;
+}
+.menu li {
+	display: inline-block;
+    list-style-type: none;
+    width: 108px;
+}
+h1 {
+	float: left;
+    display: inline-block;
+    margin: 40px 1088px 0px 82px;
+    width: 113px;
+    height: 32px;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 48px;
+    font-weight: 700;
+}
+.avatar {
+	background-image: url(images/user.png);
+    width: 42px;
+    height: 42px;
+    float: right;
+    margin: -21px 202px;
+    background-repeat: no-repeat;
+    background-size: 42px;
+}
+p {
+	width: 103px;
+    height: 14px;
+    color: #0a3b6c;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
+    margin: -10px 51px;
+}
+.banner {
+	width: 1292px;
+    height: 362px;
+    background-image: -webkit-linear-gradient(86deg, #d9f1fe 0%, #fff7f9 100%);
+    float: left;
+    margin-top: 30px;
+}
+.pc {
+	background-image: url(images/pc.png);
+    width: 556px;
+    height: 360px;
+    float: right;
+    margin-right: 90px;
+}
+.internship {
+	display: inline-block;
+	float: left;
+}
+.internship h1 {
+	width: 506px;
+    height: 182px;
+    color: #0f3049;
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: -303px 695px 0px 86px;
+}
+.internship p {
+	font-family: "Roboto - Regular";
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    margin: -247px 838px 0px 86px;
+    line-height: 37px;
+    font-size: 22px;
+    width: 362px;
+}	
+.more {
+	background-color: #fb565a;
+    float: left;
+    margin: -83px 91px 82px;
+    width: 188px;
+    height: 50px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	border: none;
+
+}
+.more:hover {
+	background-color: #200005;
+}
+h2 {
+	width: 300px;
+    height: 47px;
+    color: #093a6b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    display: table-caption;
+    margin: 31px 96px 0px 81px;
+}
+.box_1 {
+	width: 241px;
+    height: 227px;
+    float: left;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-left: 74px;
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+	color: #033568;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.box_2 {
+	width: 241px;
+    height: 227px;
+    float: left;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-left: 43px;
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+	color: #033568;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.box_3 {
+	width: 241px;
+    height: 227px;
+    float: right;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-right: 80px;
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+	color: #033568;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+.box_4 {
+	margin-right: 49px;
+    width: 241px;
+    height: 227px;
+    float: right;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+	color: #033568;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+}
+.jobs p {
+	width: 183px;
+    height: 36px;
+    color: #07396a;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 95px;
+    text-align: right;
+}
+.jobs button {
+	width: 140px;
+	height: 42px;
+	border: 2px solid #fb565a;
+	background-color: #fb565a;
+	display: inline-block;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 35px;
+	border: none;
+}
+.circle {
+	width: 74px;
+    height: 74px;
+    background-color: #bee5f3;
+    border-radius: 50%;
+    margin-left: 79px;  
+}
+.circle img {
+	margin-left: 17px;
+    width: 48px;
+    height: 34px;
+    float: left;
+    margin-top: -90px;
+}
+.jobs button:hover {
+	background-color: #ffffff;
+    width: 140px;
+    height: 42px;
+    color: #56c6fe;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 35px;
+}
+.box_1:hover , .box_2:hover , .box_3:hover , .box_4:hover {
+	width: 241px;
+    height: 227px;
+	background-color: #68cdff;
+}
+.offers {
+	width: 598px;
+    height: 199px;
+    background-color: #f7fcff;
+    display: inline-block;
+    float: left;
+}
+.offers ul li {
+    width: 542px;
+    height: 99px;
+    color: #07386a;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: -64px;
+    list-style-image: url(images/red.png);
+}
+.offers h3 {
+	width: 263px;
+    height: 17px;
+    color: #033568;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 26px;
+}
+.require {
+	width: 598px;
+    height: 199px;
+    display: inline-block;
+    background-color: #f7fcff;
+    float: right;
+}
+.require ul li {
+	width: 542px;
+    height: 99px;
+    color: #07386a;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: -64px;
+    list-style-image: url(images/red.png);
+}
+.require h3 {
+	width: 263px;
+    height: 17px;
+    color: #033568;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 26px;
+}
+.footer h1 {
+	width: 113px;
+	height: 32px;
+	color: #000000;
+	font-family: Calibri;
+	font-size: 48px;
+	font-weight: 700;
+}
+.footer p {
+	width: 423px;
+    height: 11px;
+    color: #a2a1a1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    display: inline-block;
+}
+.footer hr {
+	width: 1240px;
+    height: 1px;
+    background-color: #a6a5a5;
+    opacity: 0.47;
+    display: block;
+    float: left;
+    margin-top: 28px;
+}
